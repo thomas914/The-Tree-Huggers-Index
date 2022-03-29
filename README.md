@@ -7,14 +7,10 @@
     - [Qt](#qt)
     - [Python](#python)
 
-<br/>
-
 ## Authors
 - Thomas, LI Ka Chun
 - Tim, TSE Wai Chung
 - Tony, XU Baixuan
-
-<br/>
 
 ## Workflow
 1. All tasks are listed in `issue` section.
@@ -25,12 +21,8 @@
    - This pull request should be approved by all participants before you merge.
 6. Please fetch **updates from main** every time using **GitHub Desktop** before you start working locally.
 
-<br/>
-
 ## Friendly Reminders
 - Please use `.gitignore` file to avoid unnecessary files from your workplace
-
-<br/>
 
 ## Code Conventions
 ### Qt
