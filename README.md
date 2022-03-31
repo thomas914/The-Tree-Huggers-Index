@@ -6,6 +6,7 @@
   - [Code Conventions](#code-conventions)
     - [Qt](#qt)
     - [Python](#python)
+  - [Publicly-defined ESG Indicators](#publicly-defined-esg-indicators)
 
 ## Authors
 - Thomas, LI Ka Chun
@@ -38,4 +39,9 @@
   - For any resource needed for this program, please use Qt Resource File(`.qrc` file)
 ### Python
   - Please follow the rules given by Python3
-  
+
+## Publicly-defined ESG Indicators
+  - [GRI (Global Reporting Initiative) Standards](https://www.globalreporting.org/standards/)
+  - [United Nations Sustainable Development Group 17 Goals for Sustainable Development](https://sdgs.un.org/goals)
+  - [Corporate sustainability by PwC](https://www.pwc.com/gx/en/about/corporate-sustainability.html)
+  - KPIs for Sustainability
