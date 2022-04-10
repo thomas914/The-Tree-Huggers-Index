@@ -15,7 +15,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void paintEvent(QPaintEvent* event);
+
+private slots:
+    // override
+    //checked parameter is only useful for checkable QAction
+    void on_actionNew_Profile_triggered(bool checked = false);
+    void on_actionLoad_Profile_triggered(bool checked = false);
+
 private:
     Ui::MainWindow *ui;
+    QPixmap bg_pic;
 };
 #endif // MAINWINDOW_H
