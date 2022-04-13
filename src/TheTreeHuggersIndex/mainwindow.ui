@@ -53,7 +53,7 @@
       </property>
       <property name="sizeHint" stdset="0">
        <size>
-        <width>163</width>
+        <width>145</width>
         <height>20</height>
        </size>
       </property>
@@ -84,6 +84,9 @@
             </item>
             <item>
              <widget class="QDoubleSpinBox" name="dsb_numOfEmp">
+              <property name="decimals">
+               <number>15</number>
+              </property>
               <property name="minimum">
                <double>0.000000000000000</double>
               </property>
@@ -115,6 +118,9 @@
             </item>
             <item>
              <widget class="QDoubleSpinBox" name="dsb_marketValue">
+              <property name="decimals">
+               <number>15</number>
+              </property>
               <property name="minimum">
                <double>0.000000000000000</double>
               </property>
@@ -146,6 +152,9 @@
             </item>
             <item>
              <widget class="QDoubleSpinBox" name="dsb_peRatio">
+              <property name="decimals">
+               <number>15</number>
+              </property>
               <property name="minimum">
                <double>-100000000.000000000000000</double>
               </property>
@@ -177,6 +186,9 @@
             </item>
             <item>
              <widget class="QDoubleSpinBox" name="dsb_ranking">
+              <property name="decimals">
+               <number>15</number>
+              </property>
               <property name="minimum">
                <double>0.000000000000000</double>
               </property>
@@ -253,7 +265,7 @@
       </property>
       <property name="sizeHint" stdset="0">
        <size>
-        <width>163</width>
+        <width>145</width>
         <height>20</height>
        </size>
       </property>
