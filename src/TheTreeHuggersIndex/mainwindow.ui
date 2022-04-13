@@ -78,7 +78,7 @@
                </font>
               </property>
               <property name="text">
-               <string>Number Of Employment</string>
+               <string>Number Of Employee</string>
               </property>
              </widget>
             </item>
@@ -180,7 +180,7 @@
                </font>
               </property>
               <property name="text">
-               <string>Consumer Services Ranking</string>
+               <string>Industry Ranking</string>
               </property>
              </widget>
             </item>
@@ -193,7 +193,7 @@
                <double>0.000000000000000</double>
               </property>
               <property name="maximum">
-               <double>100000000.000000000000000</double>
+               <double>1.200000000000000</double>
               </property>
               <property name="singleStep">
                <double>1.000000000000000</double>
@@ -300,8 +300,6 @@
      <string>Profile</string>
     </property>
     <addaction name="actionNew_Profile"/>
-    <addaction name="actionLoad_Profile"/>
-    <addaction name="actionSave_Profile"/>
    </widget>
    <widget class="QMenu" name="menuNavigation">
     <property name="title">
