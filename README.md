@@ -18,3 +18,14 @@ The result (an ESG score) is then presented to the user. To construct the source
 (located in `src/TheTreeHuggerIndex`) with QT creator.
 
 Install Qt: https://www.qt.io/download
+
+## Video Tutorial <br/>
+- [Pitch Video Here](https://youtu.be/Sq5bkcePFB8?t=70) from `1:10` to `1:55`
+
+
+## Acknowledgement
+- [Pytorch](https://pytorch.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Python3](https://www.python.org/)
+- [Qt](https://www.qt.io/)
+- [Slidesgo template](https://slidesgo.com/)
