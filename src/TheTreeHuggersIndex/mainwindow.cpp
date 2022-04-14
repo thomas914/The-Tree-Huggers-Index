@@ -87,6 +87,11 @@ void MainWindow::showBackground(bool isShow)
         //show all input components
         ui->inputBlock->setVisible(true);
         ui->buttonBlock->setVisible(true);
+
+        ui->dsb_marketValue->setValue(0);
+        ui->dsb_numOfEmp->setValue(0);
+        ui->dsb_peRatio->setValue(0);
+        ui->dsb_ranking->setValue(0);
     }
 
 
