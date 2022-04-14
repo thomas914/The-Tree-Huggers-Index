@@ -1,47 +1,20 @@
 # The-Tree-Huggers-Index
-- [The-Tree-Huggers-Index](#the-tree-huggers-index)
-  - [Authors](#authors)
-  - [Workflow](#workflow)
-  - [Friendly Reminders](#friendly-reminders)
-  - [Code Conventions](#code-conventions)
-    - [Qt](#qt)
-    - [Python](#python)
-  - [Publicly-defined ESG Indicators](#publicly-defined-esg-indicators)
 
-## Authors
-- Thomas, LI Ka Chun
-- Tim, TSE Wai Chung
-- Tony, XU Baixuan
+## User Guide
+The source code in this repository consists of two components: **Python** and **GUI**.
 
-## Workflow
-1. All tasks are listed in `issue` section.
-2. Take tasks in `issue` by yourself.
-3. Feel free to add issues to `issue`.
-4. Create your own `branch` to commit your work. Name your branch as `[your github username]-patch`.
-5. Please send a **pull request from your branch into main** as long as you think your code you're working on should be well-known by everyone
-   - This pull request should be approved by all participants before you merge.
-6. Please fetch **updates from main** every time using **GitHub Desktop** before you start working locally.
+Under `src/Python` is a collection of python programs that we designed and used to train our model. 
+In which `Model.py` is the python program that loads data and train the model. `Dataset.csv` is the dataset we collected to train the model.
+To run the source code, please ensure that `PyTorch`, `NumPy` and `pandas` are installed. AND, `Dataset.csv` and `Model.py` must be placed in the same directory.
 
-## Friendly Reminders
-- Please use `.gitignore` file to avoid unnecessary files from your workplace
+Install pytorch: https://pytorch.org/get-started/locally/<br>
+Install pandas: https://pandas.pydata.org/docs/getting_started/install.html<br>
+Install numpy: https://numpy.org/install/<br>
 
-## Code Conventions
-### Qt
-  - **DO NOT** write function definitions in header files, since the complier will not check mistakes.
-  - Use ***Camel Case*** to name functions and variables.
-  - All decimal variables should be stored in `double` type.
-  - Please use `/* I am some detailed description */` to describe the class at the top of the header files
-  - Please write comment `//i am a very readable comment` (such that other people can understand your code).
-  - Use **MIL (Member Initialization List)** in class constructors.
-  - When creating new class in Qt, please: (Especially when the class makes use of signal and slot)
-    - Make sure the class inherits from `QObject`
-    - Check the option `Add Q_Object`
-  - For any resource needed for this program, please use Qt Resource File(`.qrc` file)
-### Python
-  - Please follow the rules given by Python3
 
-## Publicly-defined ESG Indicators
-  - [GRI (Global Reporting Initiative) Standards](https://www.globalreporting.org/standards/)
-  - [United Nations Sustainable Development Group 17 Goals for Sustainable Development](https://sdgs.un.org/goals)
-  - [Corporate sustainability by PwC](https://www.pwc.com/gx/en/about/corporate-sustainability.html)
-  - KPIs for Sustainability
+
+Under `src/TheTreeHuggerIndex` is a Qt-based desktop GUI. It takes input from the client and feed it to the trained model. 
+The result (an ESG score) is then presented to the user. To construct the source code locally, open the `TheTreeHuggersIndex.pro` file 
+(located in `src/TheTreeHuggerIndex`) with QT creator.
+
+Install Qt: https://www.qt.io/download
