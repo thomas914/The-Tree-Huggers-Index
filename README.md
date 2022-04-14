@@ -27,5 +27,6 @@ Install Qt: https://www.qt.io/download
 - [Pytorch](https://pytorch.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Python3](https://www.python.org/)
+- [Numpy](https://numpy.org/)
 - [Qt](https://www.qt.io/)
 - [Slidesgo template](https://slidesgo.com/)
