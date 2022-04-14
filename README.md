@@ -1,15 +1,11 @@
 # The-Tree-Huggers-Index
 
-## Authors
-- Thomas, LI Ka Chun
-- Tim, TSE Wai Chung
-- Tony, XU Baixuan
-
 ## User Guide
 The source code in this repository consists of two components: **Python** and **GUI**.
 
 Under `src/Python` is a collection of python programs that we designed and used to train our model. 
-To run the source code, please ensure that `PyTorch`, `NumPy` and `pandas` are installed.
+In which `Model.py` is the python program that loads data and train the model. `Dataset.csv` is the dataset we collected to train the model.
+To run the source code, please ensure that `PyTorch`, `NumPy` and `pandas` are installed. AND, `Dataset.csv` and `Model.py` must be placed in the same directory.
 
 Install pytorch: https://pytorch.org/get-started/locally/<br>
 Install pandas: https://pandas.pydata.org/docs/getting_started/install.html<br>
